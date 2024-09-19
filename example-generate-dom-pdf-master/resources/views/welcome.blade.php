@@ -67,6 +67,10 @@
         <h1>Slip Gaji</h1>
 
         <div class="card">
+            <p><a href="{{ route('download.gaji') }}" target="blank">Download Gaji</a></p>
+        </div>
+
+        {{-- <div class="card">
             <p><a href="{{ route('download.default.gaji') }}" target="blank">Download Default Gaji</a></p>
         </div>
 
@@ -76,7 +80,7 @@
 
         <div class="card">
             <p><a href="{{ route('download.gaji.potongan0.tambahan0') }}" target="blank">Download Gaji Potongan 0 Tambahan 0</a></p>
-        </div>
+        </div> --}}
     </div>
 </body>
 
