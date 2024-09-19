@@ -34,14 +34,14 @@ class PDFController extends Controller
                     'bonus_pasien_baru' => 'Rp 0',
                     'bonus_upah_lembur' => 'Rp 0',
                 ],
-                // 'potongan' => [
-                //     'total_potongan' => '-Rp 32.250',
-                //     'keterangan' => 'PPH21',
-                // ],
-                // 'tambahan' => [
-                //     'total_tambahan' => 'Rp 100.000',
-                //     'keterangan' => 'Bonus bulanan',
-                // ],
+                'potongan' => [
+                    'total_potongan' => '-Rp 32.250',
+                    'keterangan' => 'PPH21',
+                ],
+                'tambahan' => [
+                    'total_tambahan' => 'Rp 100.000',
+                    'keterangan' => 'Bonus bulanan',
+                ],
             ],
         ];
 
